@@ -1,0 +1,42 @@
+.gap{
+    height: 90px;
+}
+.cartimg{
+    max-width: 150px; /* Set the maximum width */
+  max-height: 150px;
+    width: 80%;
+    height: 80%;
+}
+
+.custom-width-input{
+
+    width: 30px;
+}
+.custom-width-input-button{
+
+    width:30px;
+    height:30px;
+}
+.kartcolour{
+    background-color:  #e6faff;
+}
+
+.shopping-cart {
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .shopping-cart:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+  }
+
+  .kartbutton button:hover {
+    transform: scale(1.20);
+    transition: transform 0.3s ease-in-out; 
+  }
+
+  .vertical-text {
+    writing-mode: vertical-rl; /* Vertical writing mode, from right to left */
+    transform: rotate(180deg); /* Rotate 90 degrees to stand upright */
+    text-align: center; /* Optional: Align text in the center */
+    white-space: nowrap; /* Optional: Prevent text from wrapping */
+  }

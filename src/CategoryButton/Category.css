@@ -1,0 +1,14 @@
+.colour{
+    background-color:#e6faff;
+}
+
+
+  .categorybutton button:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out; 
+  }
+  @media (max-width: 768px) {
+    .categorybutton {
+      flex-wrap: wrap;
+    }
+  }  

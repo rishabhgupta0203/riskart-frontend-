@@ -1,0 +1,43 @@
+.colourr{
+    background-color: aqua;
+}
+hr {
+    border: 1px solid #ccc; /* Set the border color to grey */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+.blockk{
+
+    height: 150px;
+}
+
+img{
+
+    width: 75%;
+    height:75%;
+}
+
+.header{
+    height:30px;
+    border-radius: 10px 10px 0 0; 
+}
+.divider {
+    border-right: 1px solid #ccc; /* Vertical line between columns */
+    height: 100%;
+}
+
+.custom-width-input{
+
+    width: 30px;
+}
+.custom-width-input-button{
+
+    width:30px;
+    height:30px;
+}
+
+.productviewbutton button:hover {
+    transform: scale(1.10);
+    transition: transform 0.3s ease-in-out; 
+  }
+  

@@ -1,0 +1,18 @@
+.colour{
+    background-color:#e6faff;
+}
+
+img{
+   
+    height: 200px;
+   
+}
+
+.colourr{
+    background-color: white;
+    display: 'flex';
+    flex-wrap: wrap;
+}
+.homediv{
+    height:85px;
+}
