@@ -108,7 +108,7 @@ const goToprofile=()=>{
           
        
       </ul>
-      <div className="d-flex" role="search">
+      <div className="d-flex  " role="search">
         <input className="form-control me-2" type="search" value={searching} onChange={(e)=>{setsearching(e.target.value)}}/>
         <button className="btn btn-outline-primary "  onClick={handleclick}>Search</button>
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">

@@ -130,48 +130,7 @@ getfilterproducts();
 
  
 
-  // return (
-  //   {showModal ? (<FilterContext value={contextValue}>
-  //     <FilterModal />
-  //   </FilterContext>) :
-  //   <div className='row colour mx-5 rounded-5 py-3'>
-  //     <div className='d-flex justify-content-end'>
-  //       <img src='https://cdn-icons-png.flaticon.com/128/3839/3839020.png' className='fliterlogoimg mx-2' onClick={openmodal}>
-  //         {/* <FilterContext value={contextValue}>
-  //           <FilterModal />
-  //         </FilterContext> */}
-  //       </img>
-  //       </div>
-  //     {currentProducts.map((product, index) => (
-  //       <div
-  //         key={index}
-  //         className='col-12 col-sm-6 col-md-4 col-lg-3  rounded-5 cardcolour border border-primary my-3 hovereffect pb-3 shopping-cart'
-  //         onClick={() => handleProductButtonClick(product.id)}
-  //       >
-  //         <div className='mx-2 my-2 d-flex flex-column justify-content-between'>
-  //           <div className=' px-2 py-2 rounded-5 d-flex border border-primary justify-content-center'>
-  //             <img src={product.url} className='productcardimg' alt={product.name} />
-  //           </div>
-  //           <div className='d-flex flex-column justify-content-end align-items-center'>
-  //             <p className='text-center'>{product.name}</p>
-  //             <p className='text-center'>{product.detail}</p>
-  //             <p className='text-center'>Mrp-&#8377;{product.price}/_</p>
-  //           </div>
-  //         </div>
 
-  //       </div>
-  //     ))}
-
-  //     {/* Pagination */}
-  //     <div className='pagination d-flex justify-content-center align-items-center'>
-  //       {[...Array(Math.ceil(allProducts.length / productsPerPage)).keys()].map((number) => (
-  //         <button key={number + 1} onClick={() => paginate(number + 1)} className=' btn btn-outline-primary custom-width-input-button mx-1 text-center'>
-  //           {number + 1}
-  //         </button>
-  //       ))}
-  //     </div>
-  //   </div>
-  // )};
   return (
     <>
       {(showModal && cat!=="getAllProducts" && searched==="") && (
